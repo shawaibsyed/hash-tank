@@ -1,0 +1,1 @@
+nest g co $1 && nest g s $1 && nest g mo $1

@@ -1,0 +1,65 @@
+.container {
+    width: 600px;
+    height: 700px;
+    background-color: #fdfcfc;
+    outline: none;
+    border-radius: 4px;
+    overflow: auto;
+    position: relative;
+    padding: 16px;
+  }
+  
+  .title {
+    margin-bottom: 16px;
+  }
+  
+  .commentContainer {
+    margin-top: 16px;
+  }
+  
+  .commentItem {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+  }
+  
+  .avatar {
+    margin-right: 8px;
+    padding: 2px;
+  }
+  
+  .avatar.titan {
+    border: 2px solid;
+  }
+  
+  .avatar.others {
+    border: 2px solid;
+  }
+  
+  .commentText {
+    flex: 1;
+  }
+  
+  .sentiment {
+    font-size: 22px;
+    margin-left: auto;
+    margin-top: 8px;
+  }
+  
+  .addCommentContainer {
+    margin-top: 16px;
+  }
+  
+  .addCommentTextField {
+    margin-bottom: 16px;
+  }
+  
+  .submitButton {
+    margin-top: 16px;
+    border-radius: 24px;
+    font-weight: bold;
+    animation: pulse 1s infinite;
+  }
+  

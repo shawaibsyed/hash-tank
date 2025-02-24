@@ -1,0 +1,36 @@
+.sidebar {
+  min-width: 18%;
+  display: flex;
+}
+
+/* .render {
+  display: flex;
+  flex-direction: row;
+  flex: 8;
+  background-color: "#ffffff"
+} */
+
+.bodyContainer {
+  display: flex;
+  height: calc(100vh - 4rem);
+  background-color: var(--color-primary);
+  
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.sideContainer {
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  margin:8px;
+  padding:64px;
+  background: linear-gradient(269.99deg, #387091 0.12%, #165E79 30.83%, #003E55 66.29%, #003E55 95.9%);
+}
+
+.header {
+  background-color: var(--color-secondary);
+}

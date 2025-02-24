@@ -1,0 +1,16 @@
+export const investmentRounds = [
+  { value: "idea", label: "Idea Stage" },
+  { value: "pre-seed", label: "Pre-Seed Stage" },
+  { value: "seed", label: "Seed Stage" },
+  { value: "series-a", label: "Series A" },
+  { value: "series-b", label: "Series B" },
+  { value: "series-c", label: "Series C" },
+  { value: "series-d", label: "Series D" },
+  { value: "series-e", label: "Series E" },
+  { value: "series-f", label: "Series F" },
+  { value: "mezzanine", label: "Mezzanine Financing" },
+  { value: "private-equity", label: "Private Equity" },
+  { value: "debt", label: "Debt Financing" },
+  { value: "strategic-partnership", label: "Strategic Partnership" },
+  { value: "ipo", label: "IPO" },
+];

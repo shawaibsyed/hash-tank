@@ -1,0 +1,62 @@
+:root {
+  --color-primary: #ffffff; /* Primary color */
+  --color-secondary: #1d1d42; /* Secondary color */
+  --button-color: #116ECB;
+  --text-color: linear-gradient(180deg, #2191B8 0%, #0E4A5F 100%);
+
+  --fs-heading: 2rem;
+  --fs-sub-heading: 1.5rem;
+  --fs-normal: 1.3rem;
+  
+  /* Add more color variables here */
+}
+
+body {
+  position: absolute;
+  margin: 0px;
+  overflow: hidden;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Abril Fatface';
+  src: url('/fonts/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gradient-text {
+  background: linear-gradient(180deg, #2191B8 0%, #0E4A5F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+
+.scroll-container {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent; /* For Firefox */
+  -ms-overflow-style: none; /* For Microsoft Edge */
+  overflow: auto;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 0.4em;
+  background-color: transparent;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* 
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+background-color: transparent !important;
+} */
